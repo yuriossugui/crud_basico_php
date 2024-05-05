@@ -1,0 +1,13 @@
+//script p/ workbench
+
+CREATE DATABASE usuarios;
+USE usuarios;
+
+CREATE TABLE dados (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255),
+    sobrenome VARCHAR(255),
+    idade FLOAT
+);
+
+SELECT * FROM dados;
